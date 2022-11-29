@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.Logo{
+    width: 80px;
+    padding: 5px;
+    padding-top: 8px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    font-size: large;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.list li:hover {
+    color: #579ab5;
+    text-shadow: 1px 1px 2px rgb(192, 192, 192);
+}

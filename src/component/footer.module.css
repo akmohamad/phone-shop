@@ -1,0 +1,9 @@
+.container {
+    height: 50px;
+    background-color: gainsboro;
+}
+.container p {
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.container {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, rgb(4, 4, 68), cadetblue, lightsteelblue );
+}
+.container p {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.container input{
+    width: 320px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.container input::placeholder {
+    font-size: 1rem;
+}
